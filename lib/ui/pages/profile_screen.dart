@@ -76,14 +76,14 @@ class ProfileScreen extends StatelessWidget {
                         ),
                       ),
                       subtitle: Text(
-                        "Hello, David",
+                        "Hello, Shijil.m",
                         style: TextStyle(
                           fontWeight: FontWeight.w800,
                           fontSize: 26,
                           color: Colors.black,
                         ),
                       ),
-                      trailing: ClipOval(child: Image.asset("assets/user.jpg")),
+                      trailing: ClipOval(child: Image.network("https://drive.google.com/file/d/1GlucbNWfvZu_HRjVkns5HHUay4auA9pA/view?usp=sharing")),
                     ),
                     SizedBox(
                       height: 10,
